@@ -31,7 +31,7 @@ parser.add_argument("-n", "--eval_scale", type=float, default=1, help="quantitat
 
 parser.add_argument("--w_level2", type=float, default=1.)
 parser.add_argument("--w_level1", type=float, default=1.)
-parser.add_argument("--w_level0", type=float, default=4)
+parser.add_argument("--w_level0", type=float, default=0.2)
 
 args = parser.parse_args()
 if args.eval_scale <= 0:
